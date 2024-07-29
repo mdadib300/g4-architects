@@ -1,0 +1,31 @@
+/* Body */
+body{
+    padding: 0 240px;
+}
+
+/* Common styles */
+.text-medium{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+    font-weight: 700;
+    float: right;
+    margin-right: 25px;
+}
+
+nav li a{
+    text-decoration: none;
+}
